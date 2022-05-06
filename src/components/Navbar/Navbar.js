@@ -1,4 +1,5 @@
-
+import React from "react"
+import CartWidget from "../Cartwidget/index"
 
 export default function Navbar(){
     const ulStyles = {
@@ -20,7 +21,9 @@ export default function Navbar(){
                 <ul className="ul" style={ulStyles}>
                     <li style={liStyles}>Inicio</li>
                     <li style={liStyles}>Productos</li>
-                    <li style={liStyles}>Carrito</li>
+                    <li>
+                        <CartWidget/>
+                    </li>
                 </ul>
             </nav>
         </header>
