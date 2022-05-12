@@ -1,0 +1,10 @@
+.film{
+    display: block;
+    width: 500px;
+}
+
+.film img{
+    width: 50%;
+    height: 10%;
+    object-fit: cover;
+}
